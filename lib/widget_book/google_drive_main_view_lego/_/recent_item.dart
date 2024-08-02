@@ -19,20 +19,20 @@ class _RecentItemViewState extends State<RecentItemView> {
 
   fileImage(String filename) {
     if (filename == 'docs') {
-      return Image.asset("assets/view/google_drive_main_view/google-docs.webp");
+      return Image.asset("assets/lego/google_drive_main_view_lego/google-docs.webp");
     } else if (filename == 'image') {
-      return Image.asset("assets/view/google_drive_main_view/photo.webp");
+      return Image.asset("assets/lego/google_drive_main_view_lego/photo.webp");
     } else if (filename == 'pdf') {
-      return Image.asset("assets/view/google_drive_main_view/pdf.webp");
+      return Image.asset("assets/lego/google_drive_main_view_lego/pdf.webp");
     } else if (filename == 'sheets') {
       return Image.asset(
-          "assets/view/google_drive_main_view/google-sheets.webp");
+          "assets/lego/google_drive_main_view_lego/google-sheets.webp");
     } else if (filename == 'video') {
       return Image.asset(
-          "assets/view/google_drive_main_view/photographic-film.webp");
+          "assets/lego/google_drive_main_view_lego/photographic-film.webp");
     } else {
       return Image.asset(
-        "assets/view/google_drive_main_view/pdf.webp",
+        "assets/lego/google_drive_main_view_lego/pdf.webp",
         color: Colors.blue,
       );
     }
